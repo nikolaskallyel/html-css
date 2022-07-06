@@ -1,0 +1,27 @@
+@charset "UTF-8"
+
+body{
+color: aquamarine;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: rgb(72, 255, 0);
+}
+h1#principal {
+    text-align: center;
+    background-color: green;
+}
+h2{
+    color: blueviolet;
+}
+.basico{
+color: aqua;
+font-weight: ;
+}
+.intermediario{
+color: blue;
+}
+.avançado{
+color: blueviolet;
+}
