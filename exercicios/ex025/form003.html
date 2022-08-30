@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+   
+    <h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="het" autocomplete="on">
+        <p>
+            <label for="iest">estado</label>
+            <select name="esatado" id="iest">
+                <optgrup>
+                    <option value="sp">são paulo</option>
+                    <option value="rj">rio de janeiro</option>
+                    <option value="sf">são fransisco</option>
+                </optgrup>
+            </select>
+        </p>
+
+<p>
+    <label for="iprof">profisão</label>
+    <input type="text" name="prof" id="iprof">
+     <datalist id="istprod">
+     <option>professor</option>
+     </datalist>
+</p>
+
+     <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+    </form>
+</body>
+</html>
